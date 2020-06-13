@@ -2,9 +2,20 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
               BindingContext="{Binding Main, Source={StaticResource Locator}}"
-             x:Class="AppAldo.Views.IdPage">
+             x:Class="AppAldo.Views.IdPage"
+             Title="Aldo Hugo Larrain Otalora">
     <ContentPage.Content>
-        <StackLayout>
+        <StackLayout >
+            <Entry
+                >
+                
+            </Entry>
+            <Button
+                BackgroundColor="Blue"
+                BorderRadius="30"
+                Text="Llamar Api Rest"
+                TextColor="White">
+                </Button>
             
         </StackLayout>
     </ContentPage.Content>
